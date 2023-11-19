@@ -1,0 +1,979 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/david/Desktop/Creat with code DAIVID/Heads and volleys alpha
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62824
+Successfully changed project path to: C:/Users/david/Desktop/Creat with code DAIVID/Heads and volleys alpha
+C:/Users/david/Desktop/Creat with code DAIVID/Heads and volleys alpha
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19844] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3824386763 [EditorId] 3824386763 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G9TFBGQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19844] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3824386763 [EditorId] 3824386763 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G9TFBGQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/david/Desktop/Creat with code DAIVID/Heads and volleys alpha/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005494 seconds.
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 593ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3538.
+Memory consumption went from 115.0 MB to 114.9 MB.
+Total: 2.872700 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.098500 ms MarkObjects: 2.392900 ms  DeleteObjects: 0.105000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (3.6 KB). Loaded Objects now: 3537.
+Memory consumption went from 66.7 MB to 66.7 MB.
+Total: 2.737300 ms (FindLiveObjects: 0.304700 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.332400 ms  DeleteObjects: 0.022400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1317ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3540.
+Memory consumption went from 114.0 MB to 114.0 MB.
+Total: 2.996200 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.567200 ms  DeleteObjects: 0.060000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1388ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3543.
+Memory consumption went from 114.0 MB to 114.0 MB.
+Total: 2.854800 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.395800 ms  DeleteObjects: 0.052700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79070.905213 seconds.
+  path: Assets/Playermovement.cs
+  artifactKey: Guid(d6d2845e4dd4e4f4c937d2808be2f9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playermovement.cs using Guid(d6d2845e4dd4e4f4c937d2808be2f9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742a6c557e8aff37002fcbdb603c5295') in 0.004137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.400759 seconds.
+  path: Assets/Playermovement.cs
+  artifactKey: Guid(d6d2845e4dd4e4f4c937d2808be2f9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Playermovement.cs using Guid(d6d2845e4dd4e4f4c937d2808be2f9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e0590282967c7036cce2c8a9240cb3e') in 0.137060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_RoofVent_01.prefab
+  artifactKey: Guid(f74897866dd9f4f40a8665c68e2a5a30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_RoofVent_01.prefab using Guid(f74897866dd9f4f40a8665c68e2a5a30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a82ccff012688297a6c499ff06383b23') in 0.030786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Axe_01.fbx
+  artifactKey: Guid(fc87ddbc56252d34eba650bc01454ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Axe_01.fbx using Guid(fc87ddbc56252d34eba650bc01454ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6105e054c3dcc5f369e691455c7e2676') in 0.032860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Apple.fbx
+  artifactKey: Guid(9c1d619f8953c1a4291f2fef4d07b8c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Apple.fbx using Guid(9c1d619f8953c1a4291f2fef4d07b8c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3358f83329f8a11eaa8135eac99b193') in 0.021380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Carrot.prefab
+  artifactKey: Guid(d56f8ac4fabf058479abd159340d1d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Carrot.prefab using Guid(d56f8ac4fabf058479abd159340d1d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e72679d63b3b58fe65b799da5c47fa4d') in 0.018455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_TrashBag_01.fbx
+  artifactKey: Guid(329369e77b30e5c4d9c682e9e42e88e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_TrashBag_01.fbx using Guid(329369e77b30e5c4d9c682e9e42e88e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51cf9d75f147a40cf6d29577d73e8017') in 0.022740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Table_01.001.prefab
+  artifactKey: Guid(d0170e45993037d4090f306552db19de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Table_01.001.prefab using Guid(d0170e45993037d4090f306552db19de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ffae4727abffaf1b7e4828672c87bc9') in 0.015789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/WallCShape_01.fbx
+  artifactKey: Guid(7ebc7b042ce670544a5a51c62efc5ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/WallCShape_01.fbx using Guid(7ebc7b042ce670544a5a51c62efc5ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46a120e7cc869886821d42b4da1c5249') in 0.025360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TrashBag_01.prefab
+  artifactKey: Guid(f763a8746b477b941bf6e84aea6e3864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TrashBag_01.prefab using Guid(f763a8746b477b941bf6e84aea6e3864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2d9109125c1d88a1a4f93483789e02e') in 0.014886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Motel_01.prefab
+  artifactKey: Guid(deaa7bf5c66d02d4387274bea9212f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Motel_01.prefab using Guid(deaa7bf5c66d02d4387274bea9212f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb2ceb7084533a775a82c7bdaf4b7a30') in 0.014807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TV_Table.prefab
+  artifactKey: Guid(7e399f3872d332b4faec96793c759cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TV_Table.prefab using Guid(7e399f3872d332b4faec96793c759cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a169e7d595ab608aa55f690edde4602b') in 0.014310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Demo/Pandazole Simple Game.prefab
+  artifactKey: Guid(86b1803cec22b3a4883ff90604d6f3f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Demo/Pandazole Simple Game.prefab using Guid(86b1803cec22b3a4883ff90604d6f3f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2049a5b67f4edbd1cccf6562dac29dc') in 0.021263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 274
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_ModernTV.prefab
+  artifactKey: Guid(e6ebbc43f51b43f4bb7907ee6939a686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_ModernTV.prefab using Guid(e6ebbc43f51b43f4bb7907ee6939a686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e52f4af65106f9e5016e3d42418e0e0') in 0.017295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/SGP_Demo.fbx
+  artifactKey: Guid(2dc020296b8fe8b42a1b2788e9d395e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/SGP_Demo.fbx using Guid(2dc020296b8fe8b42a1b2788e9d395e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb3826e890f858507df2f5f0940522e9') in 0.147496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 439
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_CommercialBuilding_01.prefab
+  artifactKey: Guid(36c588d4d2cea4543a8f06287520992c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_CommercialBuilding_01.prefab using Guid(36c588d4d2cea4543a8f06287520992c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c52e0afd0b9d7d08d40c37b00ace839') in 0.015504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_StreetSign_TrafficSignals.fbx
+  artifactKey: Guid(21005077904495149a31d4ea07a4da8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_StreetSign_TrafficSignals.fbx using Guid(21005077904495149a31d4ea07a4da8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0224f58b6e1d0fc4c4f3343d73075ac') in 0.021177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_WallShelf_01.fbx
+  artifactKey: Guid(cfb258292116f39439e8cc701edd53b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_WallShelf_01.fbx using Guid(cfb258292116f39439e8cc701edd53b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e8bebc6db48b050ec39bb705feb15ac') in 0.020307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Bush_01.fbx
+  artifactKey: Guid(37ab62ddbf218fe46b0ac2f5d7b172df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Bush_01.fbx using Guid(37ab62ddbf218fe46b0ac2f5d7b172df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '156751e6b4350a28f73f118544fee6f2') in 0.018138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_ResidentBuilding_01.prefab
+  artifactKey: Guid(b6d2dcae7c7efd9459d35aefcaef9c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_ResidentBuilding_01.prefab using Guid(b6d2dcae7c7efd9459d35aefcaef9c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93d3af947031929e528811687efa9f61') in 0.019168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Carpet_01.fbx
+  artifactKey: Guid(63a6bfea00951824e8058e24718877e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Carpet_01.fbx using Guid(63a6bfea00951824e8058e24718877e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e9acbb04f97f3a0e4babceb2c8a51b3') in 0.023659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/CannedFood_01.prefab
+  artifactKey: Guid(6044f46bd69510d48a796d5fa03e10ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/CannedFood_01.prefab using Guid(6044f46bd69510d48a796d5fa03e10ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aeb875a392608ebc3774de43a342ec8') in 0.016756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/BaseballBat_01.prefab
+  artifactKey: Guid(158ab0a391ada744fa4d573b410ead6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/BaseballBat_01.prefab using Guid(158ab0a391ada744fa4d573b410ead6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd91930ddcf32130f223f7a46b5c5282') in 0.016099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Arrow_01.prefab
+  artifactKey: Guid(8f7bce973172b894691d6bf53db9cdcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Arrow_01.prefab using Guid(8f7bce973172b894691d6bf53db9cdcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '950acc04fc17fd6b6fd8a8f7f4f37622') in 0.014968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/PryBar.fbx
+  artifactKey: Guid(4322188eaf730d043ae471207099b162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/PryBar.fbx using Guid(4322188eaf730d043ae471207099b162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b9d262ee882843b3013ece2f84d7196') in 0.020508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_WallShelf_02.prefab
+  artifactKey: Guid(42107521ef2a7044d82e542572b54888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_WallShelf_02.prefab using Guid(42107521ef2a7044d82e542572b54888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b964fba0d2fc865c7ec67ecc7f23c30') in 0.015825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Table_01.001.fbx
+  artifactKey: Guid(15112076ea03283498c943b283165f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Table_01.001.fbx using Guid(15112076ea03283498c943b283165f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddbae60da750b9904c4f64b3156d98a9') in 0.020332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Bush_01.prefab
+  artifactKey: Guid(cca12f5afb8ce8548ba635da63757947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Bush_01.prefab using Guid(cca12f5afb8ce8548ba635da63757947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d19ae5b9833c8624993e5492989e83d') in 0.014188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Arrow_01.fbx
+  artifactKey: Guid(b366656885996c94abddce2af1f4d3e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Arrow_01.fbx using Guid(b366656885996c94abddce2af1f4d3e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ea596dad6147f103f32b2fab909e2f1') in 0.022816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_End_02.prefab
+  artifactKey: Guid(4f04aa6fd2801ac4b995145cee649fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_End_02.prefab using Guid(4f04aa6fd2801ac4b995145cee649fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dee6637e897e677d423e2588732471ef') in 0.016848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_Grass_01.fbx
+  artifactKey: Guid(d61f092b463efe145b8ac91534fc1365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_Grass_01.fbx using Guid(d61f092b463efe145b8ac91534fc1365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4793030db4331804b06768fff2dd9854') in 0.023452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/GroundBase_01.prefab
+  artifactKey: Guid(d209655c06f7fe040a0f4b8c5c946bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/GroundBase_01.prefab using Guid(d209655c06f7fe040a0f4b8c5c946bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95e6783380b9ea45236ec01f5bfce8c8') in 0.015823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_Straight_02.fbx
+  artifactKey: Guid(10d25393721ede84facb77671a13a7a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_Straight_02.fbx using Guid(10d25393721ede84facb77671a13a7a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd01c347623888cd1039ffc02c8b64fe') in 0.023142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Paint_01.prefab
+  artifactKey: Guid(46e341a6df12c6242944a0a205bd3842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Paint_01.prefab using Guid(46e341a6df12c6242944a0a205bd3842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ad754e0a7411d6d3514964dd4221ed8') in 0.016209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Grass_01.prefab
+  artifactKey: Guid(623f6e318aac73947a34de78282715b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Grass_01.prefab using Guid(623f6e318aac73947a34de78282715b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b12a879123e007759b6a2b0c782e97c') in 0.018385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_Straight_01.fbx
+  artifactKey: Guid(826bcfeb16d117f4f825964ba4710656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_Straight_01.fbx using Guid(826bcfeb16d117f4f825964ba4710656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b80b4aef1f3531daba10957b30120bb4') in 0.023328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Knife_01.fbx
+  artifactKey: Guid(e714305e49bc2294bb2589c085c03321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Knife_01.fbx using Guid(e714305e49bc2294bb2589c085c03321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b9da6c17726918da7034ae23954fcfe') in 0.023791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_RoofVent_01.fbx
+  artifactKey: Guid(25cbf0f9b5fdcf843bafa9e315cfc8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_RoofVent_01.fbx using Guid(25cbf0f9b5fdcf843bafa9e315cfc8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a44afcda332fc0320fe41f7beb59c131') in 0.025437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Textures/PandaMat.png
+  artifactKey: Guid(9708c258323b0304e967c27a4d9352c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Textures/PandaMat.png using Guid(9708c258323b0304e967c27a4d9352c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bddf036003669db3f04737b30f8706e') in 0.058090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Wall_01.fbx
+  artifactKey: Guid(e5cd99ce43cd3e846ac83be46b01e725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Wall_01.fbx using Guid(e5cd99ce43cd3e846ac83be46b01e725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b00ed082e54915b7a86bcf9a4aea30c') in 0.023702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_ResidentBuilding_01.fbx
+  artifactKey: Guid(d7ff47761c5cb9d4280359c0d7a91741) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_ResidentBuilding_01.fbx using Guid(d7ff47761c5cb9d4280359c0d7a91741) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b223de243dcfcb8cb82aa343d480679') in 0.023430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Carrot.fbx
+  artifactKey: Guid(6dea3d3b9d248004eb3ac30481e05bb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Carrot.fbx using Guid(6dea3d3b9d248004eb3ac30481e05bb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2688c1817f4a01409de67b189b4a58fe') in 0.023943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_End_02.fbx
+  artifactKey: Guid(e80e03bff3411b5488f8a70ca0556eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Road_End_02.fbx using Guid(e80e03bff3411b5488f8a70ca0556eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb0065ebedfb060fc2581b7e74b26168') in 0.030390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Sofa_01.fbx
+  artifactKey: Guid(7bb55f397e045db4691dfffa63e103a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Sofa_01.fbx using Guid(7bb55f397e045db4691dfffa63e103a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4fbed1f2a3b179e2c159dcc89753341') in 0.028112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/SodaCan.prefab
+  artifactKey: Guid(54bf41ce18711524195534092b648214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/SodaCan.prefab using Guid(54bf41ce18711524195534092b648214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bda089225897a5a63ac18821b40cf65') in 0.018872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Scenes/Demo.unity
+  artifactKey: Guid(95742c875191f684e9a0bec9b49cabb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Scenes/Demo.unity using Guid(95742c875191f684e9a0bec9b49cabb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff49ab60862a9c0d712bc4a8ce6d6006') in 0.011376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_CommercialBuilding_01.fbx
+  artifactKey: Guid(b858118c219cf7f40bb10b5024b81cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_CommercialBuilding_01.fbx using Guid(b858118c219cf7f40bb10b5024b81cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2324fec1920be59736de27d5c811ad6') in 0.026777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Apple.prefab
+  artifactKey: Guid(e7a2a8a83b359a54f89e9c51b55f1d54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Apple.prefab using Guid(e7a2a8a83b359a54f89e9c51b55f1d54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84040a6afc13fec87c8f98fc0f4715b1') in 0.018442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/SodaCan.fbx
+  artifactKey: Guid(115bb14048f77fb44a4b84e568911321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/SodaCan.fbx using Guid(115bb14048f77fb44a4b84e568911321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b17e61c172e6a79dfa82427c7e30ce52') in 0.018503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1464ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3546.
+Memory consumption went from 113.9 MB to 113.8 MB.
+Total: 3.030400 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.583100 ms  DeleteObjects: 0.053900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.490 seconds
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3549.
+Memory consumption went from 114.1 MB to 114.1 MB.
+Total: 3.424300 ms (FindLiveObjects: 0.455100 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.787100 ms  DeleteObjects: 0.098400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.957 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3552.
+Memory consumption went from 114.1 MB to 114.1 MB.
+Total: 3.524400 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.995900 ms  DeleteObjects: 0.076300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
